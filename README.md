@@ -4,12 +4,10 @@
 
 ---
 
-# 📞 PhoneXtract - Number Intelligence Tool
 
-PhoneXtract is a simple yet powerful OSINT-based tool built in Python for gathering basic information about any phone number worldwide. Ideal for educational purposes and security researchers.
 
 > 🔧 Created by: **SUMIT SAH**
-> 📺 YouTube: **SUMIT HEX**
+
 
 ---
 
