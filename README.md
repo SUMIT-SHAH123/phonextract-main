@@ -8,8 +8,8 @@
 
 PhoneXtract is a simple yet powerful OSINT-based tool built in Python for gathering basic information about any phone number worldwide. Ideal for educational purposes and security researchers.
 
-> 🔧 Created by: **Alok Thakur**
-> 📺 YouTube: **Firewall Breaker**
+> 🔧 Created by: **SUMIT SAH**
+> 📺 YouTube: **SUMIT HEX**
 
 ---
 
@@ -161,7 +161,7 @@ python3 phonextract.py
 ### ⚡ One-Line Install (Kali Linux)
 
 ```bash
-sudo apt update && sudo apt install python3-venv python3-pip git -y && git clone https://github.com/thakur2309/phonextract.git && cd phonextract && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt && python3 phonextract.py
+sudo apt update && sudo apt install python3-venv python3-pip git -y && git clone https://github.com/SUMIT-SHAH123/phonextract-main.git && cd phonextract && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt && python3 phonextract.py
 ```
 
 ### 🔁 Run Again Next Time — Kali Linux
