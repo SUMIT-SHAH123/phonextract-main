@@ -205,7 +205,7 @@ python3 phonextract.py
 ### Steps
 
 ```cmd
-git clone https://github.com/thakur2309/phonextract.git
+git clone https://github.com/SUMIT-SHAH123/phonextract-main.git
 cd phonextract
 python -m venv venv
 venv\Scripts\activate
@@ -215,21 +215,9 @@ python phonextract.py
 
 ---
 
-## 📌 Contact
 
-<a href="https://youtube.com/@firewallbreaker09">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-</a>
-<br>
-<a href="https://github.com/thakur2309?tab=repositories">
-  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-<br>
-<a href="https://whatsapp.com/channel/0029VbAiqVMKLaHjg5J1Nm2F">
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel">
-</a>
 
 ---
 
 <p align="center">⭐ If you found this useful, please star the repository!</p>
-<p align="center">Made with ❤️ by Alok Thakur | Firewall Breaker</p>
+<p align="center">Made with ❤️ by SUMIT</p>
