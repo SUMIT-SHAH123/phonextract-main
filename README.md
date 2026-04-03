@@ -79,7 +79,7 @@ pkg install git -y
 ```
 
 ```bash
-git clone https://github.com/thakur2309/phonextract.git
+git clone https://github.com/SUMIT-SHAH123/phonextract-main.git
 ```
 
 ```bash
@@ -97,7 +97,7 @@ python3 phonextract.py
 ### ⚡ One-Line Install (Termux)
 
 ```bash
-pkg update && pkg upgrade && pkg install git && git clone https://github.com/thakur2309/phonextract.git && cd phonextract && pip install -r requirements.txt && python3 phonextract.py
+pkg update && pkg upgrade && pkg install git && git clone https://github.com/SUMIT-SHAH123/phonextract-main.git && cd phonextract && pip install -r requirements.txt && python3 phonextract.py
 ```
 
 ---
@@ -121,7 +121,7 @@ sudo apt install python3-venv python3-pip git -y
 ### Step 3 — Clone the repository
 
 ```bash
-git clone https://github.com/thakur2309/phonextract.git
+git clone https://github.com/SUMIT-SHAH123/phonextract-main.git
 ```
 
 ### Step 4 — Navigate into the folder
@@ -184,7 +184,7 @@ deactivate
 
 ```bash
 sudo apt update && sudo apt install python3-venv python3-pip git -y
-git clone https://github.com/thakur2309/phonextract.git
+git clone https://github.com/SUMIT-SHAH123/phonextract-main.git
 cd phonextract
 python3 -m venv venv
 source venv/bin/activate
