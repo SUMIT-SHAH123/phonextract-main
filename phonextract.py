@@ -1,7 +1,7 @@
 import os
 import time
-import sys
 import requests
+import sys
 from datetime import datetime
 import phonenumbers
 from phonenumbers import (
@@ -10,8 +10,8 @@ from phonenumbers import (
     region_code_for_number,
     PhoneNumberFormat, format_number
 )
-from colorama import init, Fore
 from colorama import Fore, Style
+from colorama import init, Fore
 
 init(autoreset=True)
 
@@ -25,6 +25,10 @@ init(autoreset=True)
 # ══════════════════════════════════════════════════════════════
 #  SCREEN & BANNER
 # ══════════════════════════════════════════════════════════════
+
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 
 def slow_print(text, delay=0.003):
     for char in text:
@@ -66,7 +70,7 @@ def banner():
     print(Fore.GREEN + "-" * 60)
     slow_print(Fore.YELLOW + "   >> SUMIT INFO TRACKER")
     slow_print(Fore.MAGENTA + "   >> DEV: SUMIT")
-    slow_print(Fore.GREEN + "   >> STATUS: ACTIVE | SECURE ")
+    slow_print(Fore.GREEN + "   >> STATUS: ACTIVE | SECURE | ANONYMOUS")
     print(Fore.GREEN + "=" * 60)
 
 
@@ -548,7 +552,7 @@ def analyze_number(number, save=False):
         "  [!] WhatsApp check is best-effort only.",
         "  [!] All data from public records. No API key used.",
         SEP,
-        "  Phone info tracker  by  SUMIT SAH  |  SUMIT HEX",
+        "  PhoneXtract v3.0  by SUMIT SAH",
         SEP,
     ]
 
@@ -645,7 +649,6 @@ def main_menu():
             print(Fore.WHITE  + "  | UAE       | +971501234567          |")
             print(Fore.WHITE  + "  | Germany   | +4915123456789         |")
             print(Fore.WHITE  + "  | Australia | +61412345678           |")
-            print(Fore.WHITE  + "  | Nepal     | +9771234567890         |")
             print(Fore.WHITE  + "  +-----------+------------------------+\n")
 
             num = input(Fore.CYAN + "  [>] Phone number: ").strip()
@@ -698,7 +701,7 @@ def main_menu():
 
         elif choice == "0":
             print(Fore.GREEN  + "\n  [+] Exiting PhoneXtract. Stay ethical.\n")
-            print(Fore.MAGENTA+ "      Created by Alok Thakur | Firewall Breaker\n")
+            print(Fore.MAGENTA+ "      Created by SUMIT SAH\n")
             break
 
         else:
